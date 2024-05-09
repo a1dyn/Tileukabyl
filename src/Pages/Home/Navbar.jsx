@@ -58,7 +58,7 @@ function Navbar() {
               to="heroSection"
               className="navbar--content"
             >
-              Home
+              Главная
             </Link>
           </li>
           <li>
@@ -72,7 +72,7 @@ function Navbar() {
               to="MyPortfolio"
               className="navbar--content"
             >
-              Portfolio
+              Портфолио
             </Link>
           </li>
           <li>
@@ -86,23 +86,10 @@ function Navbar() {
               to="AboutMe"
               className="navbar--content"
             >
-              About Me
+              Обо мне
             </Link>
           </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="testimonial"
-              className="navbar--content"
-            >
-              Testimonials
-            </Link>
-          </li>
+          
         </ul>
       </div>
       <Link
@@ -115,7 +102,7 @@ function Navbar() {
         to="Contact"
         className="btn btn-outline-primary"
       >
-        Contact Me
+        Мои Контакты
       </Link>
     </nav>
   );

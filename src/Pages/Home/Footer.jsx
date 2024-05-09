@@ -20,7 +20,7 @@ function Footer() {
                 to="heroSection"
                 className="text-md"
               >
-                Home
+                Главная
               </Link>
             </li>
             <li>
@@ -33,7 +33,7 @@ function Footer() {
                 to="MyPortfolio"
                 className="text-md"
               >
-                Portfolio
+                Портфолио
               </Link>
             </li>
             <li>
@@ -46,7 +46,7 @@ function Footer() {
                 to="AboutMe"
                 className="text-md"
               >
-                About Me
+                Обо мне
               </Link>
             </li>
             <li>
@@ -59,22 +59,10 @@ function Footer() {
                 to="Contact"
                 className="text-md"
               >
-                Contact
+                Контакты
               </Link>
             </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="testimonial"
-                className="text-md"
-              >
-                Testimonials
-              </Link>
-            </li>
+            
           </ul>
         </div>
         <div className="footer--social--icon">
@@ -172,7 +160,7 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Made with 💖 by John</p>
+        <p className="footer--content">Made with 💖 by Aidyn</p>
         <div className="footer--social--icon">
           <ul>
             <li>
